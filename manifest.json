@@ -1,3 +1,25 @@
 {
-  "test": true
+	"name": "DevOS Season H",
+	"versions": {
+		"current": { "name": "2022.05.08+1", "code": 1 },
+		"history": [
+			{ "name": "2022.05.08+1", "code": 1 }
+		]
+	},
+	"creator": {
+		"ignore": [
+			"packwiz.json",
+			"saves",
+			".ignore",
+			"packwiz-installer.jar",
+			"packwiz-installer-bootstrap.jar",
+			"screenshots",
+			"server-resource-packs"
+		]
+	},
+	"flavors": [
+		{ "id": "sodium", "name": "Sodium Suite", "envs": [ "client" ] },
+		{ "id": "canvas", "name": "Optifine (You still need to get OF manually)", "envs": [ "client" ] }
+	],
+	"unsup_manifest": "root-1"
 }
