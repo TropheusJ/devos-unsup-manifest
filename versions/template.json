@@ -1,0 +1,13 @@
+{
+	"hash_function": "SHA-2 256",
+	"changes": [
+		{
+			"path": "mods/mod_name.jar",
+			"from_size": 0,
+			"from_hash": null,
+			"to_hash": "SHA-256 hash here",
+			"to_size": bytes
+		}
+	],
+	"unsup_manifest": "update-1"
+}
